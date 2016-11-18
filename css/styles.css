@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+h1 {
+
+    font-family: 'Indie Flower', cursive;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading {
+    margin: 20px 0px;
+    
+}
+body {
+    background-color: lightgreen;
+}
+h1 {
+    text-align: center;
+}
+
+#nav {
+    text-align: right;
+    
+}
+
+#nav a {
+    text-decoration: none;
+    
+}
+
+.container {
+    width:960px;
+    margin:auto;
+    
+}
+
+.topcontent {
+    background: url(../images/team_photograph.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+.topcontent p {
+    position: absolute;
+    top: 40%;
+    background-color: rgba(255,255,255,0.7);
+    color: black;
+}
+
+.maincontent {
+   padding: 20px;
+   margin: auto;
+   margin-bottom: 40px;
+   background-color: red;
+}
+
+.maincontent ul li {
+    list-style: none;
+    padding: 20px;
+    text-align:left;
+}
+
+.maincontent a {
+    text-decoration: none;
+    background: lightgreen;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 25px;
+    margin-left: 50px;
+    position: relative;
+    top: -20px;
+    text-align: center;
+}
+.space-p p {
+    margin-top: 10px;
+}
+
+.subcontent1 {
+    float: left;
+    background-color: red;
+    width:45%;
+}
+
+.subcontent1 ul li {
+    list-style: none;
+    text-align: center;
+    
+}
+
+.subcontent1 ul a {
+    text-decoration:  none;
+    color: lightgreen;
+    text-align: center;
+}
+
+.subcontent2 ul a {
+    text-decoration:  none;
+    color: lightgreen;
+    text-align: center;
+}
+
+
+.subcontent2 {
+    float: right;
+    background-color: red;
+    width:45%;
+}
+
+.full-image {
+    max-width:100%;
+    
+}
+
