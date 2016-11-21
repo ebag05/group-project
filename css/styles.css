@@ -1,3 +1,5 @@
+/* Here is where the Google Font is added*/
+
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 h1 {
@@ -20,6 +22,8 @@ h1 {
     text-align: center;
 }
 
+/* This is where the navigation bar is styled */
+
 #nav {
     text-align: right;
     
@@ -35,6 +39,8 @@ h1 {
     margin:auto;
     
 }
+
+/* Style for Background photo is here*/
 
 .topcontent {
     background: url(../images/team_photograph.jpg);
@@ -56,8 +62,11 @@ h1 {
    margin: auto;
    margin-bottom: 40px;
    background-color: red;
+   font-size: 20px;
 }
 
+
+/*This is the styling for unordered list throughout site */
 .maincontent ul li {
     list-style: none;
     padding: 20px;
@@ -75,6 +84,7 @@ h1 {
     position: relative;
     top: -20px;
     text-align: center;
+    text-size: 24px;
 }
 .space-p p {
     margin-top: 10px;
@@ -84,8 +94,10 @@ h1 {
     float: left;
     background-color: red;
     width:45%;
+    text-size: 24px;
 }
 
+/* Be mindful of subcontent 1 and 2 deisgned as ul li AND ul a below*/
 .subcontent1 ul li {
     list-style: none;
     text-align: center;
@@ -95,6 +107,11 @@ h1 {
 .subcontent1 ul a {
     text-decoration:  none;
     color: lightgreen;
+    text-align: center;
+}
+
+.subcontent2 ul li {
+    list-style: none;
     text-align: center;
 }
 
@@ -116,3 +133,18 @@ h1 {
     
 }
 
+.subcontent1 ul a , .subcontent2 ul a{
+    background: lightgreen;
+    
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 25px;
+    position: relative;
+    margin:20px auto;
+    text-align: center;
+    text-size: 24px;
+}
+.subcontent1 p , .subcontent2 p{
+    margin-top: 10px;
+}
