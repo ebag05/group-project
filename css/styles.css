@@ -61,7 +61,7 @@ h1 {
    padding: 20px;
    margin: auto;
    margin-bottom: 40px;
-   background-color: red;
+   background-color: rgb(255,51,51);
    font-size: 20px;
 }
 
@@ -92,7 +92,7 @@ h1 {
 
 .subcontent1 {
     float: left;
-    background-color: red;
+    background-color: rgb(255,51,51);
     width:45%;
     text-size: 24px;
 }
@@ -124,7 +124,7 @@ h1 {
 
 .subcontent2 {
     float: right;
-    background-color: red;
+    background-color: rgb(255,51,51);
     width:45%;
 }
 
